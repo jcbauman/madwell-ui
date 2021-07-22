@@ -15,7 +15,7 @@
 }
 
 h3{
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .App-header {
@@ -45,10 +45,9 @@ h3{
 
 .subHeader{
   text-align: right;
-  margin:0 24px;
+  margin:0 24px 14px 24px;
   color:black;
   font-weight: normal;
-  margin-bottom: 14px;
 }
 
 .centerComponent{
@@ -66,20 +65,22 @@ h3{
 .imageGrid{
   display: inline-grid;
   grid-template:repeat(2,150px)/repeat(2,150px);
-  grid-gap: 20px 20px;
-  margin:20px;
+  grid-gap: calc(30px / 4);
+  margin:10px 0;
 }
 
 @media only screen and (min-width: 780px) {
   .imageGrid {
     grid-template:repeat(3,150px)/repeat(3,150px);
+    grid-gap: 20px 20px;
+  margin:20px;
   }
   .imagesBox{
-    width:55%;
+    width:50%;
     flex:1;
   }
   .subHeader {
-    width:45%;
+    width:50%;
   }
 
   .centerComponent{
