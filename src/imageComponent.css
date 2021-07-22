@@ -7,8 +7,10 @@
     transition:.5s;
 }
 
-.imageContainer:hover{
-    transform: scale(1.1);
+@media only screen and (min-width: 760px) {
+    .imageContainer:hover {
+        transform: scale(1.1);
+    }
 }
 
 .imageSize{

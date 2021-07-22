@@ -23,12 +23,14 @@ function App() {
         <div className="App">
             <header className='App-header'>
                 <h1 className='pageHeader'>Title of Page</h1>
-                <h3 className='subHeader'>I'm centered vertically on Desktop, but flush with the right edge of some sort.</h3>
-                <div className='imagesBox'>
-                    <div className='imageGrid'>
-                        {imageData.map((singleImage) =>
-                            <ImageComponent path={singleImage.path} caption={singleImage.caption} alt={singleImage.alt}/>
-                        )}
+                <div className='centerComponent'>
+                    <h3 className='subHeader'>I'm centered vertically on Desktop, but flush with the right edge of some sort.</h3>
+                    <div className='imagesBox'>
+                        <div className='imageGrid'>
+                            {imageData.map((singleImage) =>
+                                <ImageComponent path={singleImage.path} caption={singleImage.caption} alt={singleImage.alt}/>
+                            )}
+                        </div>
                     </div>
                 </div>
                 <h3 className='bottomFooter'>And finally, I am some text centered along the bottom of the page.</h3>
