@@ -1,0 +1,41 @@
+.imageContainer{
+    height:150px;
+    width:150px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    transition:.5s;
+}
+
+.imageContainer:hover{
+    transform: scale(1.1);
+}
+
+.imageSize{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.captionScrum{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:black;
+    opacity:0.2;
+    z-index: 5;
+}
+
+.caption{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    opacity: 1!important;
+    z-index: 5;
+    margin:0;
+}
