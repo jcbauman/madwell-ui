@@ -2,7 +2,7 @@
   "name": "madwell-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jcbauman.github.io/madwell-ui",
+  "homepage": "https://jcbauman.github.io/madwell-ui",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
