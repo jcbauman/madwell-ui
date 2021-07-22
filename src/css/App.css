@@ -73,12 +73,14 @@ h3{
   .imageGrid {
     grid-template:repeat(3,150px)/repeat(3,150px);
     grid-gap: 20px 20px;
-  margin:20px;
+    margin:20px;
   }
+
   .imagesBox{
     width:50%;
     flex:1;
   }
+
   .subHeader {
     width:50%;
   }
@@ -86,7 +88,7 @@ h3{
   .centerComponent{
     display:flex;
     justify-content: center;
-  align-items: center;
+    align-items: center;
   }
 
 }

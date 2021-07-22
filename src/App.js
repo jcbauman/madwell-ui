@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.css';
 import React, {useEffect, useState} from 'react';
 import ImageComponent from "./ImageComponent";
 
@@ -14,10 +14,6 @@ function App() {
             .then(response => setImageData(response))
             .catch(error => console.log(error));
     },[]);
-
-    useEffect( () => {
-        console.log(imageData);
-    },[imageData]);
 
     return (
         <div className="App">
